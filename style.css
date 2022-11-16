@@ -1,0 +1,776 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.icon{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+    .icon{
+        display: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .maindiv{
+        display: none !important;
+    }
+}
+
+.iconbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 13px 16px ;
+
+}
+
+.iconbutton:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.heading{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+
+
+.highlighted{
+    background-color: black;
+    color: white ;
+    padding: 2px 5px 2px 5px;
+    height: 10px;
+    font-family: "Oswald";
+}
+
+.text1{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.text2{
+    font-size: 14px;
+}
+
+.image1{
+    position: relative;
+    width: 100%;
+}
+.mainimage{
+    max-width: 100%;
+    height: auto;
+}
+
+.imagetext{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: white;
+    padding: 12px 24px;
+}
+
+.imagetext1{
+    font-family: "Oswald";
+    letter-spacing: 4px;
+    font-weight: 400;
+    padding: 20px 0px;
+    font-size: 42px;
+}
+
+.imagetext2{
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.imagebutton{
+    background-color: #A1A1A1;
+    height: 53px;
+    width: 134px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.imagebutton:hover{
+    background-color: white;
+}
+
+.left{
+    width: 70%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.lefttext1{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Oswald";
+    font-size: 24px;
+}
+
+.lefttext2{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+.leftspan{
+    color: #959595;
+
+}
+
+.right{
+    width: 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #F1F1F1;
+
+}
+
+.leftimage1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+    
+}
+
+.rightimage1{
+    width: 100%;
+    
+}
+.rightfist{
+    height: auto;
+}
+
+.righttext{
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    margin-top: -4px;
+
+    
+}
+
+.righth4{
+    font-weight: 200;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: "Oswald";
+
+}
+
+.rightp{
+    font-weight: 200;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+    color: white;
+}
+
+.leftp{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.leftp1{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: justify!important;
+    line-height: 1.5;
+}
+
+.leftp2{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: justify!important;
+    line-height: 1.5;
+}
+
+.leftspan1{
+    font-weight: 600;
+}
+
+.lefttexticon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.likebutton{
+    background-color: white;
+    height: 39px;
+    width: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+.repliesbutton{
+    background-color: black;
+    height: 39px;
+    color: white;
+    width: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.likebutton:hover{
+    background-color: #A1A1A1;
+}
+
+.repliesbutton:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.repl{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+
+
+}
+
+.line{
+    margin-left: 20px ;
+    width: 96%;
+    height: 2px;
+    background-color: #bcb8c4;
+    margin-top: 20px;
+}
+
+.repliesimg1{
+    margin-top: 20px;
+    width: 90px;
+}
+
+.reptext{
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.reph4{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.repspan{
+    color: #666464a8;
+    font-size: 20px;
+}
+
+.repp{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.rightpost{
+    margin: 55px 0;
+}
+
+.rightpostheading{
+    background-color: black;
+    padding: 25px 16px;
+}
+
+.posth4{
+    color: white;
+    font-size: 20px;
+}
+
+.rightliimg{
+    width: 50px;
+    margin: 13px;
+}
+
+.rightli1{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 10px; */
+    border-bottom: 1px solid grey;
+}
+
+
+
+.rightli1:hover{
+    background-color: #959595;
+}
+
+.posttext{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.rightlish2{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Open Sans";
+    margin: 8px 0;
+    
+}
+
+.rightlisp{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.rightpostad{
+    margin: 55px 0;
+}
+
+.rightpostheadingad{
+    background-color: black;
+    padding: 25px 16px;
+}
+
+.posth4ad{
+    color: white;
+    font-size: 19px;
+
+}
+
+.adin{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    padding: 0.01em 16px;
+}
+
+.adintext{
+    background-color: #A1A1A1;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 168px;
+}
+
+.adintextp{
+    text-align: center;
+    padding-top: 78px;
+    font-size: 18px;
+    font-weight: 100;
+    
+    
+}
+
+.left2{
+    margin-top: 50px;
+}
+
+.lefttext21{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Oswald";
+    font-size: 24px;
+}
+
+.lefttext22{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+.leftspan2{
+    color: #959595;
+
+}
+
+.leftimage21{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+    
+}
+
+.left2p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.leftp21{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: justify!important;
+    line-height: 1.5;
+}
+
+.leftp22{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: justify!important;
+    line-height: 1.5;
+}
+
+.leftspan21{
+    font-weight: 600;
+}
+
+.lefttexticon2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.likebutton2{
+    background-color: white;
+    height: 39px;
+    width: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+.repliesbutton2{
+    background-color: black;
+    height: 39px;
+    color: white;
+    width: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.likebutton2:hover{
+    background-color: #A1A1A1;
+}
+
+.repliesbutton2:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+
+
+.left3{
+    margin-top: 50px;
+}
+
+.lefttext31{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Oswald";
+    font-size: 24px;
+}
+
+.lefttext32{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+.leftspan3{
+    color: #959595;
+
+}
+
+.leftimage31{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+    
+}
+
+.left3p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.leftp31{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: justify!important;
+    line-height: 1.5;
+}
+
+.leftp32{
+    font-weight: 400;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: justify!important;
+    line-height: 1.5;
+}
+
+.leftspan31{
+    font-weight: 600;
+}
+
+.lefttexticon3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.likebutton3{
+    background-color: white;
+    height: 39px;
+    width: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+.repliesbutton3{
+    background-color: black;
+    height: 39px;
+    color: white;
+    width: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.likebutton3:hover{
+    background-color: #A1A1A1;
+}
+
+.repliesbutton3:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.rightpost3{
+    margin: 55px 0;
+}
+
+.rightpostheadingtag{
+    background-color: black;
+    padding: 25px 16px;
+}
+
+.posth4tag{
+    color: white;
+    font-size: 19px;
+
+}
+
+.tagin{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+
+}
+
+.tagintext{
+    margin-top: 20px;
+}
+.tagintext:first-child{
+    margin-top: 16px;
+}
+.tagintextp.new {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px 9px;
+}
+
+.tagintextp{
+    font-size: 14px;
+    font-weight: 100;
+    background-color: #959595;
+    margin-right: 5px;
+    padding: 2px 8px;
+    
+    
+}
+
+/* .tagintext1{
+    padding: 10px 0;
+}
+
+.tagintextp1{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    
+} */
+
+.rightins{
+    margin: 55px 0;
+}
+
+.rightins1{
+    background-color: black;
+    padding: 25px 16px;
+}
+
+.rightins2{
+    color: white;
+    font-size: 19px;
+
+}
+
+.insimages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.insim{
+    width: 93%;
+    height: 106px;
+    margin-top: 10px;
+
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.rightfollow{
+    margin: 55px 0;
+}
+
+.rightfollow1{
+    background-color: black;
+    padding: 25px 16px;
+}
+
+.rightfollowtext{
+    color: white;
+    font-size: 19px;
+
+}
+
+.rightfollowbutton{
+    background-color: white;
+}
+
+.iconbutton1{
+    border: none;
+    margin: 10px 0px;
+}
+
+.rightfollowbutton{
+    margin-left: 10px;
+}
+
+.sub{
+    height: 200px;
+}
+
+.subin{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.subh3{
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Open Sans";
+}
+
+.subinp{
+    padding: 12px;
+    border: 1px solid #ccc!important;
+    
+}
+
+.subbutton{
+    color: #fff;
+    background-color: #f44336;
+    padding: 12px 16px;
+    border: none;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.bottomdiv{
+    background-color: #616161;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.bottomdiv2{
+    margin: 53px 40px;
+}
+
+.bb{
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.bbp{
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.bb:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 13px 25px;
+    margin-bottom: 18px;
+}
+
+
+.left{
+    background-color: white;
+}
+
+.right{
+    background-color: white;
+}
