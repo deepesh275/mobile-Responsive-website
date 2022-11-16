@@ -15,11 +15,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 425px) {
-    .maindiv{
-        display: none !important;
-    }
-}
+
 
 .iconbutton{
     background-color: black;
@@ -76,12 +72,24 @@
     padding: 12px 24px;
 }
 
+@media screen and (max-width: 425px) {
+    .imagetext{
+        top: 10%;
+    }
+}
+
 .imagetext1{
     font-family: "Oswald";
     letter-spacing: 4px;
     font-weight: 400;
     padding: 20px 0px;
     font-size: 42px;
+}
+
+@media screen and (max-width: 425px) {
+    .imagetext1{
+        font-size: 36px;
+    }
 }
 
 .imagetext2{
@@ -91,6 +99,11 @@
     font-weight: lighter;
 }
 
+@media screen and (max-width: 425px) {
+    .imagetext2{
+        display: none;
+    }
+}
 .imagebutton{
     background-color: #A1A1A1;
     height: 53px;
@@ -98,6 +111,12 @@
     font-size: 16px;
     font-weight: 400;
     border: none;
+}
+
+@media screen and (max-width: 425px) {
+    .imagebutton{
+        width: 122px;
+    }
 }
 
 .imagebutton:hover{
@@ -109,6 +128,21 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .left{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .insim{
+        height: 94px !important; 
+    }
 }
 
 .lefttext1{
@@ -139,6 +173,25 @@
     margin-top: 20px;
 }
 
+
+
+@media screen and (max-width: 425px) {
+    .right{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .maindiv{
+        flex-direction: column !important;
+    }
+}
+
 .maindiv{
     display: flex;
     flex-direction: row;
@@ -147,14 +200,17 @@
 
 }
 
+.girlimage{
+    margin: 15px 10px;
+}
+
 .leftimage1{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 95%;
+
+    width: 100%;
     
 }
+
+
 
 .rightimage1{
     width: 100%;
@@ -412,14 +468,6 @@
 
 }
 
-.leftimage21{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 95%;
-    
-}
 
 .left2p{
     padding-top: 16px;
@@ -513,14 +561,6 @@
 
 }
 
-.leftimage31{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 95%;
-    
-}
 
 .left3p{
     padding-top: 16px;
@@ -774,3 +814,4 @@
 .right{
     background-color: white;
 }
+
